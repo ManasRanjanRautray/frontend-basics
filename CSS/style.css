@@ -3,3 +3,18 @@ h2{
     
 }
 b{color: blue;}
+section{
+    border: 4px rgb(58, 47, 47);
+    color: blue;
+}
+div{
+    border: 15px 20px color(srgb rgb(89, 19, 202) green blue);
+    padding-left: 23px;
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    text-align: justify;
+}
+/* universal selector */
+*{margin:0;
+padding: 0;}
