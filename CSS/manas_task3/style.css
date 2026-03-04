@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(231, 120, 23);
+    font-family: initial;
+}
+/* common class for heading  */
+.orange{
+    color: orange;
+}
+.head{
+    color: rgb(21, 19, 19);
+    padding: 10px;
+}
+/* h1 style */
+h1{
+    background-color: orange;
+    font-size: 20px;
+}
+#bgline{
+    background-color: limegreen;
+    color: darkblue;
+}
+/* h4 styling */
+h4{
+    font-size: 30px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    
+}
+#para{
+        color: darkgreen;
+        font-weight: bold;
+    }
+a{
+text-decoration: navajowhite;
+color: blue;
+font-weight: bold;
+    }
+ol li:nth-child(3){
+    color: orange;
+}
+ol li:nth-child(2){
+    color: blue;
+}

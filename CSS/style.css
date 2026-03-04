@@ -7,7 +7,7 @@ section{
     border: 4px rgb(58, 47, 47);
     color: blue;
 }
-div{
+head{
     border: 15px 20px color(srgb rgb(89, 19, 202) green blue);
     padding-left: 23px;
     margin: 25px;
