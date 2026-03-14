@@ -1,6 +1,9 @@
+element.style{
+    text-align: right;
+}
 h2{
     color: brown;
-    
+    text-shadow: 22px red;
 }
 b{color: blue;}
 section{

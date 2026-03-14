@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* full height of the viewport */
+	background-color: aliceblue;
+	font-family:system-ui, -apple-system;
+}
+/* Login Box Styling */
+.box {
+	width: 400px;
+	background-color: white;
+	padding: 60px;
+	border-radius: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+	text-align: center;
+	color: #3366cc;
+	margin-bottom: 15px;
+}
+/* Style individual input containers */
+.group {
+	margin-bottom: 20px;
+}
+
+label {
+	display:block;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 5px;
+    color: #01030cc1;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	border: 1px solid #4968f2;
+	border-radius: 5px;
+}
+
+/* Login Button Styling */
+.login-btn {
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: #3366cc;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.login-btn:hover {
+	background-color: #707d94;
+}
