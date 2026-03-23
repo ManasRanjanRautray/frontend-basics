@@ -1,31 +1,56 @@
-
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
 body{
     height: 100vh;
-    background-color: rgb(156, 134, 134);
+    background: rgb(156, 134, 134);
 }
 .container{
     
-    width: 400px;
-	background-color: white;
-margin: 100px auto;
-margin-top: 15%;
-	border-radius: 0px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+	
+height: 80vh;
+margin-top: 10vh;
+margin-bottom: 10vh;
+
+	text-align: center;
+	box-shadow: 0 4px 10px rgba(228, 31, 31, 0.1);
 }
-.container img{
+.imgbox{
     width: 100%;
-    display: block;
+    height: 50vh;
+    padding: 1vh;
+    border: 0.3vh solid black;
+    margin-bottom: 1vh;
+
 }
-.btm{
-    background:linear-gradient(to right,rgb(81, 127, 196),rgb(27, 184, 74));
+.imgbox img{
+    width: 1005;
+    height: 100%;
+    
+    
+    object-fit: fill;
+    
+}
+h1{
+    font-size: 4vh;
+    margin-bottom: 3vh;
+}
+button{
+    background:linear-gradient(to right,rgb(118, 147, 190),rgb(27, 184, 74));
     text-align: center;
-    padding: 15px;
-    font-size: 18px;
-    color: rgb(6, 39, 56);
+    padding: 2vh 6vw;
+    font-size: 2vh;
+    color: rgb(8, 45, 59);
+    border-radius: 1vh;
     
 cursor: pointer;
 }
-.btm:hover {
-    opacity: 1;
+button:hover{
+    opacity: 0.8;
 }
 
