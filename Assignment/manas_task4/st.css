@@ -1,0 +1,31 @@
+
+body{
+    height: 100vh;
+    background-color: rgb(156, 134, 134);
+}
+.container{
+    
+    width: 400px;
+	background-color: white;
+margin: 100px auto;
+margin-top: 15%;
+	border-radius: 0px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.container img{
+    width: 100%;
+    display: block;
+}
+.btm{
+    background:linear-gradient(to right,rgb(81, 127, 196),rgb(27, 184, 74));
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(6, 39, 56);
+    
+cursor: pointer;
+}
+.btm:hover {
+    opacity: 1;
+}
+
