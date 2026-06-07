@@ -7,3 +7,5 @@
  let mark=[98,89,67,62,23]
  console.log(mark);
  console.log(mark.length);
+ let arr=[100,"manas",23,true];
+ console.log(arr[1]);
