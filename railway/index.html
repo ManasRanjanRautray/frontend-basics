@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Asset Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>🚆 RAMS</h2>
+
+        <ul>
+            <li class="active"><i class="fas fa-chart-line"></i> Dashboard</li>
+            <li><i class="fas fa-box"></i> Assets</li>
+            <li><i class="fas fa-users"></i> Employees</li>
+            <li><i class="fas fa-tools"></i> Maintenance</li>
+            <li><i class="fas fa-file-alt"></i> Reports</li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+
+        <div class="header">
+            
+            <h1>Railway Asset Management Dashboard</h1>
+
+            <div class="profile">
+                <img src="https://i.pravatar.cc/50" alt="">
+            </div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="fas fa-train"></i>
+                <h2 id="totalAssets">120</h2>
+                <p>Total Assets</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-user-check"></i>
+                <h2>75</h2>
+                <p>Assigned Assets</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-tools"></i>
+                <h2>12</h2>
+                <p>Under Maintenance</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-check-circle"></i>
+                <h2>33</h2>
+                <p>Available Assets</p>
+            </div>
+
+        </div>
+
+        <div class="section">
+
+            <h2>Add New Asset</h2>
+
+            <form id="assetForm">
+
+                <input type="text"
+                       id="assetName"
+                       placeholder="Asset Name"
+                       required>
+
+                <input type="text"
+                       id="serialNo"
+                       placeholder="Serial Number"
+                       required>
+
+                <select id="status">
+                    <option>Available</option>
+                    <option>Assigned</option>
+                    <option>Maintenance</option>
+                </select>
+
+                <button>Add Asset</button>
+
+            </form>
+
+        </div>
+
+        <div class="section">
+
+            <h2>Asset List</h2>
+
+            <table>
+
+                <thead>
+                <tr>
+                    <th>Asset Name</th>
+                    <th>Serial Number</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+
+                <tbody id="assetTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
